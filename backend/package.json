@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "construx": "^1.0.0",
+    "construx-copier": "^1.0.0",
+    "cors": "^2.8.5",
+    "eslint": "^1.10.3",
+    "express": "^4.12.2",
+    "kraken-js": "^2.0.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1",
+    "nodemon": "^2.0.3"
+  },
+  "browserPackage": {
+    "overrides": {
+      "requirejs": {
+        "main": "require"
+      }
+    }
+  },
+  "author": "Alison Pinheiro",
+  "license": "ISC"
+}
